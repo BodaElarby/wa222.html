@@ -1,22 +1,20 @@
-h2[id="red"] {
-color: red
+body{
+    background-color: black;
 }
-h2[id="blue"] {
-    color: blue;
+h1{
+    text-transform: uppercase;
+    font-size: 3rem;
 }
-h2[id="orange"] {
-    color: orange;
-}
-*{
+.poster {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 100px;
+    margin-right: 25%;
+    color: white;
+    font-family:"Playwrite PE" , serif;
     text-align: center;
 }
-.color-title {
-    font-weight: normal;
-}
-img {
-    height: 200px;
-    width: 200px;
-}
-*{
-    background-image: image-set();
+.project.jpg{
+    border: 5PX solid white;
+    width: 100%;
 }
